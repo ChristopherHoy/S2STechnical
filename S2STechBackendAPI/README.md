@@ -10,6 +10,7 @@ I have rewritten the default Laravel error handler to return JSON error messages
 I have created response objects to handle the responses. This increases the structure of the API and keeps the responses predictable.
 * **Validatable:**
 I have created a custom request object that is used in all the controllers. This increases the details on the error and helps maintain the structure of the code.
+* **The use of MySQL**: Most of my experience has been with MySQL. It is easy to install and use, It is a robust, fast and highly scalable database with additional security features such as encryption and authentication plugins.
 
 # Setup:
 * See SETUP.md for setup instructions
