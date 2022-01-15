@@ -80,7 +80,7 @@ composer update
 ```
 composer install
 ```
-If you run into an update it might be due to a missing factories folder. Just run this and then re-run `composer update` and `composer install`
+If you run into an error, it might be due to a missing factories folder. Just run this and then re-run `composer update` and `composer install`
 ```
 mkdir database/factories
 ```
