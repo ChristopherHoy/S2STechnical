@@ -75,7 +75,14 @@ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=compose
 ## 3. Install required packages
 Navigate to the root of the project and execute the following:
 ```
+composer update
+```
+```
 composer install
+```
+If you run into an update it might be due to a missing factories folder. Just run this and then re-run `composer update` and `composer install`
+```
+mkdir database/factories
 ```
 
 ## 4. Create .env and create APP_KEY
@@ -97,9 +104,12 @@ DB_USERNAME=s2stechnical
 DB_PASSWORD=
 ```
 
-#### Generate app key
+#### Generate app key and run migrations
 ```
 php artisan key:generate
+```
+```
+php artisan migrate
 ```
 
 ## 5. Start the development server

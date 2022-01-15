@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Product;
-use App\HTTP\Requests\Validatable;
+use App\Http\Requests\Validatable;
 use App\Helpers\Responses\ArrayResponse;
 use App\Helpers\Responses\StringResponse;
 
